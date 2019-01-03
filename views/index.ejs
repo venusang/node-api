@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SANS APP</title>
+</head>
+<body>
+  <ul class="movies">
+  <% for(var i=0; i<movies.length; i++) {%>
+    <li class="movie">
+      <span><%= movies[i].title %></span>
+      <span><%= movies[i].format %></span>
+      <span><%= movies[i].length %></span>
+      <span><%= movies[i].release %></span>
+      <span><%= movies[i].rating %></span>
+    </li>
+  <% } %>
+  </ul>
+
+  <form action="/movies" method="POST">
+    <input type="text" placeholder="title" name="title">
+    <input type="text" placeholder="format" name="format">
+    <input type="text" placeholder="length" name="length">
+    <input type="text" placeholder="release" name="release">
+    <input type="text" placeholder="rating" name="rating">
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
