@@ -1,5 +1,5 @@
 # node-api
-My first hand at writing a Node.js API with Mongo and Express
+My first hand at writing a Node.js API with MongoDB and Express
 
 ## Build Setup
 ``` bash
