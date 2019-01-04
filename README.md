@@ -4,7 +4,7 @@ My first hand at writing a Node.js API with MongoDB and Express
 ## Build Setup
 ``` bash
 #download repo and unzip
-cd to node-api-masster
+cd to node-api-master
 
 #install using npm
 npm install
